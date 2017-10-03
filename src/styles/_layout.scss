@@ -1,0 +1,22 @@
+@import "variables";
+
+section {
+  height: 100vh;
+}
+
+header {
+  background: $primary-color;
+  padding: $padding-default;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-grow: 100;
+  padding: 0 $padding-default;
+}
+
+footer {
+  background: #cdcdcd;
+  padding: $padding-default;
+}
